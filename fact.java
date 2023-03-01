@@ -1,10 +1,10 @@
 class Fact{  
  public static void main(String args[]){  
   int i,fact=1;  
-  int number=5;    
-  for(i=1;i<=number;i++){    
+  int n=5;    
+  for(i=1;i<=n;i++){    
       fact=fact*i;    
   }    
-  System.out.println("Factorial of "+number+" is: "+fact);    
+  System.out.println("Factorial of "+n+" is: "+fact);    
  }  
 } 
